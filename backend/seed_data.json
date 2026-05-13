@@ -1,0 +1,63 @@
+[
+  {
+    "id": "",
+    "name": "",
+    "corpus": "1_2",
+    "floor": 1,
+    "coordinates": [
+      59.9714,
+      30.3209
+    ],
+    "indoorPosition": {
+      "x": 50.0,
+      "y": 50.0
+    },
+    "overviewPosition": null,
+    "panorama": "http://127.0.0.1:8000/media/test.jpg",
+    "description": "",
+    "markers": [
+      {
+        "id": "m_1774871848118",
+        "position": {
+          "yaw": "261.44deg",
+          "pitch": "-4.97deg"
+        },
+        "image": "https://photo-sphere-viewer-data.netlify.app/assets/pictos/pin-blue.png",
+        "size": {
+          "width": 32,
+          "height": 32
+        },
+        "anchor": "bottom center",
+        "tooltip": "Новый маркер",
+        "type": "nav",
+        "target": "2",
+        "title": null,
+        "text": null,
+        "audio": null,
+        "video": null,
+        "model_3d": null
+      },
+      {
+        "id": "m_1774871854852",
+        "position": {
+          "yaw": "261.91deg",
+          "pitch": "-4.74deg"
+        },
+        "image": "https://photo-sphere-viewer-data.netlify.app/assets/pictos/pin-blue.png",
+        "size": {
+          "width": 32,
+          "height": 32
+        },
+        "anchor": "bottom center",
+        "tooltip": "Стул",
+        "type": "info",
+        "target": "",
+        "title": null,
+        "text": null,
+        "audio": null,
+        "video": null,
+        "model_3d": null
+      }
+    ]
+  }
+]
