@@ -1,0 +1,61 @@
+# ─── Environment ───────────────────────────────────────────────────────────────
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# ─── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ─── Database (legacy SQLite prototype) ────────────────────────────────────────
+*.db
+*.sqlite3
+
+# ─── Uploads (user media, not code) ────────────────────────────────────────────
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# ─── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/gg/dist/
+frontend/gg/.vite/
+
+# ─── TypeScript ────────────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ─── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ─── Docker ────────────────────────────────────────────────────────────────────
+# (docker-compose.yml is intentionally tracked)
+
+# ─── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ─── SSL certs (managed by Certbot in production) ──────────────────────────────
+*.pem
+*.key
+*.crt
